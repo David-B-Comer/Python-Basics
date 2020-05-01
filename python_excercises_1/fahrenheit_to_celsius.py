@@ -1,3 +1,5 @@
+# convert farenheit to celsius
+
 fahrenheit = 32
 celsius = (fahrenheit - 32) * 5.0/9.0
 
