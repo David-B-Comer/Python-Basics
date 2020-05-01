@@ -2,16 +2,20 @@
 Define a function called greet that meets the following criteria:
 Takes an argument called name.
 Prints a greeting using the name parameter.
-Invoke the greet function using your name as the argument.
-Invoke the greet function using the value "Darth Vader" as the argument.
-Invoke the greet function using the value "Guido van Rossum" as the argument.
+Define another function called name_input that meets the following criteria:
+Takes no arguments.
+Prints a message to the screen requesting the user to provide a name.
+Returns a string with the value equals to that of the provided name.
+Using these two functions, prompt the user for a name and print it to the screen.
+Each function must have an appropriate docstring.
 """
 
+# print greeting
 def greet(name):
-    print(name)
+    print("Hello " + name + "!")
+# get name input with prompt and prints greeting with name
+def name_input():
+    name = input("Please enter your name")
+    greet(name)
 
-greet("Dave")
-
-greet("Darth Vader")
-
-greet("Guido van Rossum")
+name_input()
