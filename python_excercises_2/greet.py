@@ -10,12 +10,14 @@ Using these two functions, prompt the user for a name and print it to the screen
 Each function must have an appropriate docstring.
 """
 
-# print greeting
-def greet(name):
-    print("Hello " + name + "!")
 # get name input with prompt and prints greeting with name
 def name_input():
+    global name
     name = input("Please enter your name")
-    greet(name)
+# print greeting
+def greet():
+    print("Hello " + name + "!")
+
 
 name_input()
+greet()
