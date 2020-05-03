@@ -1,4 +1,6 @@
-# Using the Python interpreter, identify the data type for the following values:
+"""
+Using the Python interpreter, identify the data type for the following values:
+"""
 
 # True
 type(True)
