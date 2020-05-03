@@ -1,7 +1,7 @@
 # Using the Python interpreter, perform the following operations. Be sure to experiment with mixing intergers and floats.
 
 # Addition
-2+2
+2+2   #
 
 # Subtraction
 3.5-2.5
