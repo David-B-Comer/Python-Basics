@@ -1,22 +1,30 @@
-# Using the Python interpreter, perform the following operations. Be sure to experiment with mixing intergers and floats.
+"""
+Using the Python interpreter, perform the following operations. Be sure to experiment with mixing intergers and floats.
+"""
+"""Addition"""
+2+2
+# = 4
 
-# Addition
-2+2   #
-
-# Subtraction
+"""Subtraction"""
 3.5-2.5
+# = 1.0
 
-# Multiplication
+"""Multiplication"""
 4*4
+# = 16
 
-# Division
+"""Division"""
 16/4
+# = 4.0
 
-#Floor division
+"""Floor division"""
 15.5//5
+# = 3.0
 
-# Modulo
+"""Modulo"""
 8%3
+# = 2
 
-# Exponentiation
+"""Exponentiation"""
 5**2
+# = 25
