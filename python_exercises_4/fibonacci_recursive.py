@@ -19,8 +19,8 @@ def fibonacci(n):
 
 def main():
     print('Enter a number : ')
-    x = int(sys.stdin.readline())
-    print(fibonacci(x))
+    n = int(sys.stdin.readline())
+    print(fibonacci(n))
 
 if __name__=='__main__':
     main()
