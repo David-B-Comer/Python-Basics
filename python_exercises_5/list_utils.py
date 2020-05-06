@@ -31,7 +31,14 @@ def sort_by_commit_count(list_in: List) -> List:
     :param list_in: A list where each entry is a list containing a name and the commit count corresponding to a user
     :return: The same list sorted in ascending order based on the commit count
     """
-    pass  # remove pass statement and implement me
+    l = len(list_in)
+    for i in range(0, l):
+        for j in range(0, l - i - 1):
+            if (list_in[j][1] > list_in[j + 1][1]):
+                temp = list_in[j]
+                list_in[j] = list_in[j + 1]
+                list_in[j + 1] = temp
+    return list_in
 
 
 def gen_list_of_nums(n: int) -> List[int]:
