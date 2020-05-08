@@ -101,7 +101,7 @@ def concatenate_lists(list_a: List, list_b: List) -> List:
     :param list_b: Another list
     :return: A list containing all elements from list_a and list_b
     """
-    pass  # remove pass statement and implement me
+    return list_a+list_b
 
 
 def multiply_list(list_in: List, scalar: int) -> List:
