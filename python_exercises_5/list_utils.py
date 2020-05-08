@@ -75,7 +75,10 @@ def remove_odds(list_in: List[int]) -> None:
 
     :return: None
     """
-    pass  # remove pass statement and implement me
+    for i in list_in[:]:
+        if i % 2 != 0:
+            list_in.remove(i)
+    return list_in
 
 
 def remove_evens(list_in: List[int]) -> None:
