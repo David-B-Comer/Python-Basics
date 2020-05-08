@@ -60,7 +60,13 @@ def half_list(list_in: List, half: int) -> List:
     If the length of list_in is an odd number, round the half value up (hint: math.ceil()).
     :return: A list.
     """
-    pass  # remove pass statement and implement me
+    import math
+    half1 = math.ceil(len(list_in) / 2)
+    half2 = (len(list_in) // 2)
+    if half == 1:
+        return list_in[:half1]
+    elif half == 2:
+        return list_in[half2:]
 
 
 def remove_odds(list_in: List[int]) -> None:
