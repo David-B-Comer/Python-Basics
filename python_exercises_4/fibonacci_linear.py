@@ -6,7 +6,6 @@ This problem must be solved WITHOUT the use of recursion.
 """
 
 import sys
-import math
 
 def fibonacci(n):
 	if n == 0:
